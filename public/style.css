@@ -1,0 +1,73 @@
+html {
+	font-size: 62.5%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	background-color: #f24350;
+}
+@media screen and (max-width: 420px) {
+	html {
+		font-size: 3.125vw;
+	}
+}
+*,
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-size: 1.6rem;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	color: #828c96;
+	overflow-x: hidden;
+}
+@media screen and (max-width: 420px) {
+	body {
+		font-size: 1.2rem;
+	}
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+}
+p {
+	line-height: 2;
+	word-wrap: break-word;
+	white-space: normal;
+}
+dd,
+dt,
+li,
+pre,
+td,
+th {
+	line-height: 1.5;
+}
+li {
+	list-style-type: none;
+}
+table {
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 0;
+	empty-cells: show;
+	font: 100%;
+	font-size: inherit;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+a {
+	color: #072142;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
