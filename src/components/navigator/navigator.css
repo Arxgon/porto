@@ -1,0 +1,54 @@
+.left {
+	margin: 0;
+	transform: translate3d(0, -50%, 0);
+	width: 40px;
+	left: 40px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+	opacity: 1;
+}
+
+.left ul {
+	margin: 0;
+	padding: 0;
+}
+
+.left ul li {
+	display: block;
+	width: 14px;
+	height: 3px;
+	margin: 0 0 40px;
+}
+
+.left ul li a {
+	display: block;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+	text-decoration: none;
+	background: #ece8e1;
+	transition: 0.3s;
+	height: 100%;
+	width: 24px;
+}
+
+.left ul li .active {
+	width: 40px;
+}
+
+.left ul li a span {
+	position: absolute;
+	z-index: 1;
+	height: 12px;
+	width: 12px;
+	border: 0;
+	background: #333;
+	left: 50%;
+	top: 50%;
+	margin: 2px 0 0 2px;
+	border-radius: 50%;
+	transition: all 0.1s ease-in-out;
+	display: none;
+}

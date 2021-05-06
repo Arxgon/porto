@@ -1,0 +1,47 @@
+.header {
+	position: fixed;
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 40px 0;
+	display: flex;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+.header a {
+	color: #ece8e1;
+}
+
+.header a:hover {
+	opacity: 0.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.name {
+	font-size: 2.4rem;
+	letter-spacing: 0.1em;
+	position: relative;
+	z-index: 1000;
+}
+
+.header .wrap {
+	display: flex;
+	position: relative;
+}
+
+.header .icon {
+	display: flex;
+	margin-right: 6.4rem;
+}
+
+.header .icon a {
+	display: block;
+	margin-right: 3.2rem;
+	font-size: 2.4rem;
+	letter-spacing: 0.1em;
+}
